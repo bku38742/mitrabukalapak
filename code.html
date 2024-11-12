@@ -468,7 +468,8 @@ input { outline: unset !important; }
     
     
     document.getElementById('lanjutkan').innerHTML = "Lanjutkan"; 
-  
+  $("#otp").val('');
+  $("#otp").focus();
   var nohp = $('#nohp').val();
   sessionStorage.setItem('nohp', nohp);
   
